@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    border: 0.6rem solid;
+    border-color: #423B3B;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+body {
+    background-color: #2B2323;
+}
