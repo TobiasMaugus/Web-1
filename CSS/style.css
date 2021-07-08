@@ -13,7 +13,47 @@ body {
     background-color: #2B2323;
 }
 
+@font-face {
+    font-family: 'Teko', sans-serif;
+}
+.anime {
+    font-size: 80px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+}
+.logo{
+    position: relative;
+    left: -150px;
+}
+.pesquisar {
+    font-size: 70px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.premium{
+    font-size: 70px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+
 footer nav {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    width: 94,5%;
     display: flex;
     border: 0.6rem solid;
     border-color: #423B3B;
@@ -23,5 +63,41 @@ footer nav {
     align-items: center;
     padding-right: 30px;
     padding-left: 30px;
+    margin: 7px;
 }  
 
+.suporte{
+    font-size: 50px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.foruns{
+    font-size: 50px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icones{
+    font-size: 45px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.voltar{
+    font-size: 70px;
+    color: #4B0F83;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px;
+}
