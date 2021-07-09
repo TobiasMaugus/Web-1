@@ -101,3 +101,61 @@ footer nav {
     font-weight: normal;
     margin: 10px;
 }
+
+.tabela td{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #aeaeae;
+    width: 25%;
+    margin: 50px;
+    border-spacing: 50px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tabela{
+    display:table;
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+main nav table{
+    border-collapse: separate;
+    border-spacing: 9px;
+}
+
+
+
+
+.planos {
+    display:table;
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.planos td{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #aeaeae;
+    width: 33,3%;   
+    border-spacing: 50px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.planos thead{
+    text-decoration: none;
+    color: black;
+}
