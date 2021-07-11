@@ -54,6 +54,7 @@ footer nav {
     left: 0;
     right: 0;
     width: 94,5%;
+    height: 70px;
     display: flex;
     border: 0.6rem solid;
     border-color: #423B3B;
@@ -66,7 +67,7 @@ footer nav {
     margin: 7px;
 }  
 
-.suporte{
+.linksuporte{
     font-size: 50px;
     color: #4B0F83;
     font-family: 'Teko', sans-serif;
@@ -124,6 +125,9 @@ footer nav {
     text-align: center;
     width: 100%;
 }
+.tabela th{
+    text-decoration: underline #4B0F83;
+}
 
 main nav table{
     border-collapse: separate;
@@ -140,22 +144,113 @@ main nav table{
     font-family: 'Teko', sans-serif;
     font-style: normal;
     font-weight: normal;
-    margin: 0;
     text-align: center;
     width: 100%;
+    table-layout: fixed;
 }
 
 .planos td{
+    vertical-align: middle;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #aeaeae;
     width: 33,3%;   
-    border-spacing: 50px 10px;
+}
+
+.planos a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    text-decoration: underline #4B0F83;
+}
+
+.form{
+    background-color: #2B2323;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.form legend{
+    font-size: 50px;
+    font-style: bold;
+    text-decoration: underline #4B0F83;
+}
+.botao{
+    font-size: 27px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+body{
+    padding-bottom: 100px;
+}
+.titulosup{
+    font-size: 55px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: bold;
+    text-decoration: underline #4B0F83;
+    font-weight: normal;
+    text-align: center;
+}
+.suporte{
+    align-items: center;
+    background-color: #2B2323;
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.inputsup{
+    height: 50px;
+    width: 250px;
+}
+.supbotao{
+    font-size: 27px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 6px;
+}
+
+.tableforun{
+    display:table;
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 100px 10px;
+}
+
+.tableforun td{
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #aeaeae;
+    width: 33,3%;   
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.planos thead{
-    text-decoration: none;
-    color: black;
+.tableforun caption{
+    font-size: 50px;
+    font-style: bold;
+    text-decoration: underline #4B0F83;
 }
