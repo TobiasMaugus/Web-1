@@ -26,6 +26,14 @@ body {
     position: relative;
     left: -150px;
 }
+.logo2{
+    position: relative;
+    left: -200px;
+}
+.logo3{
+    position: relative;
+    left: -180px;
+}
 .pesquisar {
     font-size: 70px;
     color: #4B0F83;
